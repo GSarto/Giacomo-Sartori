@@ -1,0 +1,17 @@
+@@ -0,0 +1,327 @@
+---
+title: "LeafletW"
+author: "Giacomo Sartori"
+always_allow_html: yes
+---
+
+## 22 September 2018
+
+```{r, eval=FALSE}
+library(leaflet)
+my_map <- my_map %>%
+  addMarkers(lat=39.2980803, lng=-76.5898801, 
+             popup="Jeff Leek's Office")
+my_map
+```
+
